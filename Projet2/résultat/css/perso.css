@@ -1,0 +1,250 @@
+.citation
+{
+	color: white;
+	font-size: 70px;
+	font-family: 'Satisfy', cursive;
+}
+
+.citation2
+{
+	color: white;
+	font-size: 250px;
+	font-family: 'Satisfy', cursive;
+}
+
+.nav-link
+{
+	font-family: 'Courgette', cursive;
+}
+
+.texte
+{
+	font-family: 'Courgette', cursive;
+}
+
+.lead
+{
+	font-family: 'Courgette', cursive;
+}
+
+.titre
+{
+	font-family: 'Courgette', cursive;
+}
+label
+{
+	display: block;
+	margin: 3% 0 1% 0;
+  	font-size: 25px;
+}
+
+input
+{
+	padding:3px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+	width:200px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+ textarea
+ {
+ 	padding:3px;
+ 	border:1px solid #F5C5C5;
+	border-radius:5px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+
+.featurette-image
+{
+	border-radius:10px;
+}
+
+.float-right
+{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+}
+
+.float-left
+{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+}
+
+
+
+
+/*
+ // Extra small devices (portrait phones, less than 576px)
+ // No media query for `xs` since this is the default in Bootstrap
+ // Small devices (landscape phones, 576px and up)
+*/
+ @media screen and ( max-width : 576px )
+ {
+.citation2
+{
+	color: white;
+	font-size: 20px;
+	font-family: 'Satisfy', cursive;
+}
+
+.first-slide
+{
+width:100%;
+}
+
+.second-slide
+{
+width:100%;
+}
+
+.third-slide
+{
+width:100%;
+}
+
+.centrage
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+textarea
+{
+width : 250px;
+height: 150px;
+}
+
+
+ }
+/*
+ // Medium devices (tablets, 768px and up)
+*/
+@media screen and ( min-width : 768px )
+{
+.citation2
+{
+	color: white;
+	font-size: 100px;
+	font-family: 'Satisfy', cursive;
+}
+
+.first-slide
+{
+width:100%;
+}
+
+.second-slide
+{
+width:100%;
+}
+
+.third-slide
+{
+width:100%;
+}
+
+.centrage
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+textarea
+{
+width : 750px;
+height: 250px;
+}
+
+
+}
+
+/*
+// Large devices (desktops, 992px and up)
+*/
+@media ( min-width : 992px ) {
+.citation2
+{
+	color: white;
+	font-size: 250px;
+	font-family: 'Satisfy', cursive;
+}
+
+.first-slide
+{
+width:100%;
+}
+
+.second-slide
+{
+width:100%;
+}
+
+.third-slide
+{
+width:100%;
+}
+
+.centrage
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+textarea
+{
+width : 1000px;
+height: 250px;
+}
+
+
+}
+/*
+ // Extra large devices (large desktops, 1200px and up)
+*/
+@media ( min-width : 1200px )
+{
+.citation2
+{
+	color: white;
+	font-size: 250px;
+	font-family: 'Satisfy', cursive;
+}
+
+.first-slide
+{
+width:100%;
+}
+
+.second-slide
+{
+width:100%;
+}
+
+.third-slide
+{
+width:100%;
+}
+
+.centrage
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+textarea
+{
+width : 1300px;
+height: 250px;
+}
+} 

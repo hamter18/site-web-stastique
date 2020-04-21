@@ -1,0 +1,78 @@
+body
+{
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+h2
+{
+	margin-left: 6%;
+	color: #FF0000;
+	font-size: 50px;
+	text-shadow: -1px 0 black, 0 1px black,
+				2px 0 black, 0 -1px black;
+	font-family: Satisfy, Monotype Corsiva;
+	margin-left: 2%;
+}
+
+.obligatoire
+{
+	color: #FE2E64;
+}
+
+form
+{
+	background-color: rgba(255,140,0,0.6);
+	margin: 3%;
+	padding:2%;
+	text-align:center;
+}
+
+label
+{
+	display: block;
+	margin: 3% 0 1% 0;
+  	font-size: 25px;
+}
+
+legend
+{
+	font-family: Satisfy, Monotype Corsiva;
+  	font-size: 35px;
+  	color: #F7819F;
+}
+
+optgroup
+{
+	background-color:#FFB6B8;
+}
+
+input, textarea, select, option
+{
+	background-color:#FFF0D1;
+}
+ 
+input, select
+{
+	padding:3px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+	width:200px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+ 
+button[type=submit], button[type=reset] {
+	width:100px;
+	margin: 2%;
+	padding: 0.5% 1%;
+	background-color:#FFF0D1;
+	border: 2px solid #FF8C00;
+	box-shadow:1px 1px 1px #FA628A;
+	cursor:pointer;
+}
+ 
+button[type=submit]:hover
+{
+    background-color: rgba(255,222,173,1);
+}

@@ -1,0 +1,209 @@
+#aspect 
+{
+	text-align: right;
+    font-size: 100px;
+	color: #FF0040;
+    font-family: Satisfy, Monotype Corsiva;
+    font-style: italic;
+    text-shadow: -1px 0 black, 0 1px black,
+			1px 0 black, 0 -1px black, black 0.1em 0.1em 0.2em;
+    margin-bottom:-11%;
+    margin-left: 5%;
+    margin-top:10%;
+    z-index:2;
+    position: absolute;   
+}
+
+
+.image1
+{
+	width:100%;
+	margin-top:0;
+}
+
+
+body
+{
+	background-attachment: fixed;
+	background-image: url(../Images&videos/image_coucher_de_soleil_africain1.jpg);
+	background-size:100%;
+	font-family: Handlee, Comic sans MS, Calibri, serif, Arial;
+	font-size: 20px;
+	margin: 0;
+	padding: 0; 
+}
+
+
+nav > ul > li
+{
+	display: inline-block;
+	position: relative;
+	background: linear-gradient( #6E6E6E, #2E2E2E);
+	padding: 28px 29px 28px 29px;
+	margin: -2px;
+	margin-bottom: 5%;
+}
+
+
+nav li
+{
+	margin:0;
+	padding:0;
+}
+
+
+nav >ul > li:not(:last-child)
+{
+    border-right : 1px solid white;
+}
+
+nav ul
+{
+	padding: 0;
+	list-style-type: none;
+	margin : 0 0 0 0;
+
+}
+
+
+nav a
+{
+	width: 100%;
+	margin : 0 0 0 0;
+	display: inline-block;
+	text-decoration: none;
+	font-size : 38.1px;
+	font-family: "Indie Flower";
+	text-shadow: 0px 0 black, 0 0px black,
+				0px 0 black, 0 0px black;
+}
+
+  
+nav a:hover 
+{
+	color: #FF8C00;
+	text-shadow: 0 0 10px orange;
+}
+
+
+nav a:visited
+{
+	color: #FF8C00;
+}
+
+nav > ul > li > a
+{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+.submenu
+{
+	display: none;
+}
+
+
+nav li:hover .submenu
+{
+	display : inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.submenu li
+{
+	border-right: 1px solid white;
+	background: linear-gradient( #6E6E6E, #2E2E2E);
+}
+
+
+.submenu li a 
+{
+	padding: 15px 0px;
+	font-size : 30px;
+	color: #F2F2F2;
+	width: 100%;
+}
+
+
+.submenu a:hover
+{
+	color:#FF8C00;
+	background: radial-gradient( #FFFF6B, #FAEA73);
+}
+
+.submenu a:visited
+{
+	color: #FF8C00;
+} 
+
+nav > ul:after 
+{
+	display : block;
+	clear : both;
+}
+
+
+img
+{
+  margin-bottom: -64px;  
+}
+
+
+.imageTwitter
+{
+	height: 100px;
+	width: 100px;
+	z-index: 5;
+	position: fixed;
+	right: 10px;
+	top: 100px;
+}
+
+
+.imageFacebook
+{
+	height: 100px;
+	width: 100px;
+	z-index: 5;
+	position: fixed;
+	right: 130px;
+	top: 100px;
+}
+
+
+
+footer
+{
+	line-height: 2px;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: justify;
+	background-color: rgba(255,140,0,0.6);
+	padding: 0.5%;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black,
+				1px 0 black, 0 -1px black;
+}
+
+
+.titreFooter
+{
+	color: #F7819F;
+	font-family: "Indie Flower";
+	font-size: 30px;
+	text-shadow: -1px 0 black, 0 1px black,
+				1px 0 black, 0 -1px black;
+
+}
+
+
+
+

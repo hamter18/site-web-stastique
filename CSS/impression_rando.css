@@ -1,0 +1,126 @@
+#aspect 
+{
+	text-align: center;
+    font-size: 60px;
+	color: #FF0040;
+    font-family: Satisfy, Monotype Corsiva;
+    font-style: italic;
+    margin-bottom: 0%; 
+    margin-top: -1%;
+    padding-bottom: 0;
+    text-shadow: -1px 0 black, 0 1px black,
+				1px 0 black, 0 -1px black;
+    margin-right: 3%;
+    text-decoration: underline;
+}
+
+
+.image1
+{
+	display: none;
+}
+
+nav
+{
+	display: none;
+}
+
+.imageTwitter
+{
+	display: none;
+}
+
+.imageFacebook
+{
+	display: none;
+}
+
+table
+{
+	border-width:1px; 
+	border-style:solid; 
+	border-color:black;
+	width:50%;
+	margin-bottom: 10%;
+	margin-top: 0;
+	padding-bottom: -2%;
+	text-align: center;
+}
+ 
+td
+{ 
+	border-width:1px;
+	border-style:solid; 
+	border-color:black;
+	width:50%;
+	background-color: rgba(255,140,100,0.6);
+	margin: 2%;
+	font-size: 17px;
+}
+
+th
+{
+	font-size:21px;
+	margin: 2%;
+}
+
+.titreTableau
+{
+	font-size:30px;
+	text-align: center;
+	text-decoration: underline;
+	color: #FF0000;
+	margin-bottom: 0%;
+	margin-top:-3%;
+	text-shadow: -1px 0 black, 0 1px black,2px 0 black, 0 -1px black;
+	font-family: Satisfy, Monotype Corsiva, Gabriola, Comic Sans MS;
+}
+     
+
+.tdJoursDeLaSemaine
+{
+	font-size:22px;
+	font-weight: bold;
+}
+.contourTableau
+{
+	text-align: center;
+	background-color: rgba(255,140,0,0.6);
+	padding:0% 7% 0% 7%;
+	margin: 0 7% 0% 7%;
+	border-width:4px;
+	border-style:solid;
+	border-color:grey;
+    box-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black, black 0.1em 0.1em 0.2em;
+}
+
+.bordure
+{  
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	width:50%;
+}
+
+.efface
+{
+	display: none;
+}
+
+.tdImage
+{ 
+	display: none;
+}
+
+.img_table
+{  
+display: none;
+}
+
+
+footer
+{
+display: none;
+}
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8"/>
+
+		<title>Escapade Aventure</title>
+
+		<link rel="stylesheet" href="CSS/cssCommun.css" media="screen"/>
+		<link rel="stylesheet" href="CSS/tp1_inscription.css" media="screen"/>
+
+		<link href="https://fonts.googleapis.com/css?family=Handlee|Indie+Flower|Satisfy" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<h1 id="aspect">Escapade Aventure</h1>
+		
+			<img src="Images&videos/image_course_a_pied.jpg"class="image1"/>
+		
+			<nav class="efface">
+				<ul class="menu" class="bord">
+					<li><a href="tp1.html" class="bord">Menu</a></li>
+					
+					<li><a href="tp1_escalade.html" class="bord">Escalade</a>
+						<ul class="submenu">
+							<li><a href="tp1_planning.html">Planning</a></li>
+							<li><a href="tp1_new-tarif.html">Tarifs & abonnement</a></li>
+						</ul>
+					</li>
+						
+					<li><a href="tp1_activites.html" class="bord">Randonnée</a>
+						<ul class="submenu">
+							<li><a href="tp1_planning_rando.html">Planning</a></li>
+							<li><a href="Tp1_tarif_rando.html">Tarifs & abonnement</a></li>
+						</ul>	
+					</li>
+	
+					<li><a href="tp1_canyoning.html" class="bord">Canyoning</a>
+						<ul class="submenu">
+							<li><a href="tp1_planning_canyoning.html">Planning</a></li>
+							<li><a href="Tp1_tarif_canyoning.html">Tarifs & abonnement</a></li>
+						</ul>						
+					</li>
+						
+					<li><a href="tp1_parapente.html" class="bord">Parapente</a>
+						<ul class="submenu">
+							<li><a href="tp1_planning_parapente.html">Planning</a></li>
+							<li><a href="Tp1_tarif_parapente.html">Tarifs & abonnement</a></li>
+						</ul>						
+					</li>
+					
+					<li><a href="tp1_medias.html" class="bord">Médias </a>
+						<ul class="submenu">
+							<li><a href="tp1_photos.html">Photos</a></li>
+							<li><a href="tp1_video.html">Vidéos</a></li>
+						</ul>
+					</li>
+						
+					<li><a href="nos_offres.html" class="bord">Nos offres</a></li>
+
+					<li><a href="tp1_inscription.html" class="bord">Inscriptions</a></li>
+				</ul>
+			</nav>
+					
+			<img src="Images&videos/image_twitter.png" class="imageTwitter"/>
+			<img src="Images&videos/image_facebook.png" class="imageFacebook"/>
+		</header>
+			
+		<div>
+			<h2>Formulaire d'inscription</h2>
+
+			<form action="php/test.php" method="POST" >			
+				<fieldset>
+					<legend >Vos coordonnées</legend>
+				
+					<p>
+						<label class="obligatoire" for="nom">Votre nom :  * </label>
+						<input type="text" name="nom" id="nom" placeholder="Votre nom" type="text" name="prenom" id="prenom" required />
+					</p>
+							
+					<p>
+						<label class="obligatoire" for="email">Votre email :  * </label>
+						<input type="email" name="email" id="email" placeholder="Votre email" type="text" name="prenom" id="prenom" required />
+					</p>
+							
+					<p>
+						<label for="telephone">Votre numéro de téléphone : </label>
+						<input type="tel" name="telephone" id="telephone" maxlength="10" placeholder="Votre numéro de téléphone"/>	
+					</p>				
+				</fieldset>				 
+					
+				<fieldset> 
+					<legend>Vos choix d'activités</legend>
+							
+					<label for="activite">Choisissez votre activité : </label>
+					<select name="activite" id="activite" placeholder="Votre activité">
+						<option value="randonee">Randonnée</option>
+						<option value="escalade">Escalade</option>
+						<option value="canyoning">Canyoning</option>
+						<option value="parapente">Parapente</option>
+					</select>
+				
+							
+												
+					<label for="creneau_horraire">Choisissez votre créneau horraire : </label>
+					<select name="creneau_horraire" id="creneau_horraire" placeholder="Votre créneau horraire">
+						<optgroup label="Canyoning-parapente-randonnée">
+								
+							<option value="mercredi3">Mercredi 3 (après-midi)</option>
+							<option value="du6au7">Du 6 au 7 octobre</option>
+							<option value="du13au14">Du 13 au 14 octobre</option>
+							<option value="mercredi10">Mercredi 10 (après-midi)</option>
+							<option value="du19au22">Du 19 au 22 octobre</option>
+							<option value="mercredi27">Mercredi 27 (après-midi)</option>
+							<option value="du29au30">Du 29 au 30 octobre</option>
+						</optgroup>
+									
+						<optgroup label="Escalade">
+							<option value="lundi">Lundi de 15h30 à 18h00</option>
+							<option value="mardi">Mardi de 18h00 à 00h00</option>
+							<option value="jeudi">Jeudi de 15h30 à 18h00</option>
+							<option value="vendredi">Vendredi de 18h00 à 00h00</option>
+						</optgroup>
+					</select>
+						
+							
+					<p>S'agit-il de votre première inscription à notre club?<br/>
+						<label for="utlisateur">Déjà inscrit</label>
+						<input type="radio" name="demande" value="utilisateur" id="utilisateur"/>
+								
+						<label for="non_utilisateur">Nouveau inscrit</label>
+						<input type="radio" name="demande" value="non_utilisateur" id="non_utilisateur"/>
+					</p>
+
+		
+					<label class="obligatoire" for="msg_visiteur">Avez-vous des précisions à nous faire parvenir ? * </label>
+					<textarea name="msg_visiteur" id="msg_visiteur" rows="15" cols="130" type="text" name="prenom" id="prenom" required /></textarea>
+				</fieldset>				 
+
+				<button type="submit" value="Envoyer">Envoyer</button>
+			</form>
+		</div>
+
+		<footer>
+			<div>
+				<h4 class="titreFooter">Conception du site:</h4>
+				
+				<p>Ce site a été réalisé par Lawruk Pauline et Chanson Chloé du groupe 3 de l'IUT de Clermont-Ferrand</p>
+			</div>
+		</footer>      
+	</body> 
+</html>	
+

@@ -1,0 +1,106 @@
+body
+{
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+
+main
+{
+	display : inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.sectionAll
+{
+	margin-top: 100px;
+	margin-left: 2%;
+}
+
+h2
+{
+	margin-top: 10% 50% 1% 4%;
+	color: #FF0000;
+	font-size: 20px;
+	text-shadow: -1px 0 black, 0 1px black,
+				2px 0 black, 0 -1px black;
+	font-family: Satisfy, Monotype Corsiva;
+}
+
+.fond_pour_texte
+{
+	background-color: rgba(255,140,0,0.6);
+}
+
+.margArt 
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	border-style:solid; 
+	border-color:black;
+	border-width:1px; 
+	padding:1%;
+	text-indent: 20px; 
+	text-align: justify;
+	background-color: rgba(255,140,0,0.6);
+}
+
+.titreDesArticles
+{
+	color: #F7819F;
+	font-family: Satisfy, Monotype Corsiva;
+	font-size: 18px;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+}
+
+aside 
+{
+	border-style:solid; 
+	border-color:black;
+	border-width:1px; 
+	width: 80%;
+	height: 250px;	
+	padding: 2%;
+	margin : 15% 5% 15% 5%;
+	border-radius : 15%;
+}
+
+
+ul
+{
+	color: black; 
+}
+
+
+.section 
+{
+	border-width:1px;
+	border-style:solid; 
+	border-color:black;
+	padding: 10px;
+	margin: 100px 20px;
+	overflow: hidden;
+	text-align: justify;
+	background-color: rgba(255,140,0,0.6);
+}
+
+.liensNormaux
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.liensNormaux:visited
+{
+	color: #CC2EFA;
+}
+
+
+.image_aside
+{
+	display :none;
+}

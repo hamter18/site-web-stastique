@@ -1,0 +1,52 @@
+table {
+	border-width:1px; 	
+	border-style:solid; 
+	border-color:black;
+	margin: 2% 0 5% 0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.6);
+	table-layout:fixed;
+}
+ 
+td { 
+	border-width:1px;
+	border-style:solid; 
+	border-color:black;
+	width:50%;
+	background-color: rgba(255,140,100,0.6);
+	text-align: center;
+	padding: 2%;
+}
+
+th {
+	font-size:25px;
+	background-color: rgba(255,200,0,0.6);
+	text-align: center;
+	margin: 0;
+	padding: 2%;
+}
+
+.contourTableau {
+	text-align: center;
+	background-color: rgba(255,140,0,0.6);
+	padding:0 5% 0% 5%;
+	margin: 0 5% 10% 5%;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+
+.tdJoursDeLaSemaine {
+	font-size:20px;
+	font-weight: bold;
+	background-color: rgba(255,200,0,0.6)
+}
+
+.titre_tableau {
+	font-family:  Satisfy, Monotype Corsiva, Gabriola, Comic Sans MS;
+	font-size:55px;
+	text-decoration: underline;
+	color: #FF0000;
+	margin-bottom: 3%;
+    text-shadow: -1px 0 black, 0 1px black,2px 0 black, 0 -1px black;
+}
